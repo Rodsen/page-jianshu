@@ -3,10 +3,15 @@
   padding: 0;
   list-style: none;
   vertical-align: top;
+  box-sizing: border-box;
 }
 html,body {
   height: 100%;
   width: 100%;  
+}
+.font-describe {
+  font-size: 14px;
+  color: #969696;
 }
 .page-jianshu {
   width: 100%;
@@ -28,13 +33,115 @@ html,body {
 .main {
   width: 100%;
   margin-top: 58px;
+  padding-top: 32px;
   height: auto;
+  background-color: rgb(121, 115, 115);
 }
 .main-in {
   width: 945px;
   background-color: rgb(172, 206, 141);
   height: 900px;
   margin: 0 auto;
+}
+.news {
+  width: 625px;
+  height: 850px;
+  background-color: rgb(228, 162, 162);
+  float: left;
+}
+.new-paper{
+  height: 270px;
+  width: 100%;
+  /* background-color: blue; */
+  margin-bottom: 14px;
+  background: url(../images/new-paper.jpg) ;
+  background-size: cover;
+}
+.new-list {
+  background-color: rgb(233, 206, 149);
+  width: 100%;
+  height: 500px;
+}
+.aside {
+  width: 280px;
+  height: auto;
+  /* background-color: rgb(65, 206, 147); */
+  float: right;
+}
+.navigation {
+  /* background-color: #fff; */
+  margin-top: -4px;
+}
+.navigation li {
+  margin-bottom: 10px;
+}
+.navigation li img {
+  width: 100%;
+}
+.download-app {
+  width: 100%;
+  height: 82px;
+  border: 1px solid #DCDCDC;
+  /* background-color: rgb(231, 218, 218); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download-app img[alt="download-code"] {
+  width: 60px;
+  height: 60px;
+}
+.download-btn {
+  background-color: #fff;
+  display: inline-block;
+  margin-left: 14px;
+}
+.writer-list {
+  height: 380px;
+  width: 100%;
+  /* background-color: rgb(219, 202, 202); */
+}
+.refresh-writer {
+  height: 49px;
+  /* background-color: rgb(219, 159, 159); */
+  line-height: 49px;
+  margin-top: 15px;
+}
+.refresh-btn {
+  float: right;
+}
+.writer-list-main img[alt="writer-img"]{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.writer-list-main li {
+  /* border: 1px solid; */
+  margin-bottom: 12px;
+}
+.writer-list-main li > span {
+  display: inline-block;
+  /* background-color: #fff; */
+  height: 48px;
+  line-height: 23px;  
+}
+.writer-list-main li > span a {
+  text-decoration: none;
+  color: #333
+}
+.writer-list-main li a:last-child {
+  float: right;
+  text-decoration: none;
+  color:#42c02e
+}
+.writer-describe {
+  display: inline-block;
+}
+.more-writer {
+  border: 1px solid #DCDCDC;
+  height: 35px;
+  width: 100%;
+  background-color: #F7F7F7;
 }
 /* --------------main-end------------------ */
 /* --------------footer-strat------------------ */
