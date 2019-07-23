@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: top;
+}
+html,body {
+  height: 100%;
+  width: 100%;  
+}
+.page-jianshu {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* --------------header-start------------------ */
+.header {
+  height: 58px;
+  border-bottom: 1px solid #F0F0F0;
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  top: 0;
+
+}
+/* --------------header-end------------------ */
+/* --------------main-start------------------ */
+.main {
+  width: 100%;
+  margin-top: 58px;
+  height: auto;
+}
+.main-in {
+  width: 945px;
+  background-color: rgb(172, 206, 141);
+  height: 900px;
+  margin: 0 auto;
+}
+/* --------------main-end------------------ */
+/* --------------footer-strat------------------ */
+footer {
+  margin: 20px 0;
+}
+.footer-in {
+  width: 945px;
+  /* background-color: rgb(164, 164, 206); */
+  margin: 0 auto;
+}
+.footer-in p:first-child a {
+  color: #969696;
+  text-decoration: none;
+  font-size: 13px;
+}
+.copy-right {
+  color: #c8c8c8;
+  margin: 16px 0;
+  font-size: 12px;
+}
+img[alt="fanzha"] {
+  margin-top: -7px;
+  height: 40px; 
+}
+img[alt="wxb"] {
+  margin-top: -5px;
+}
+img[alt="Zggsrz"] {
+  margin-top: -7px;
+  height: 40px; 
+}
+/* --------------footer-end------------------ */
